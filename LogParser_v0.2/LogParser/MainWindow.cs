@@ -54,7 +54,7 @@ namespace LogParser
                 try
                 {
                     SaveFileDialog ds = new SaveFileDialog();
-                    ds.Filter = "*.csv|*.csv";
+                    ds.Filter = "*.txt|*.txt";
                     if (ds.ShowDialog() == System.Windows.Forms.DialogResult.OK)
                     {
 
